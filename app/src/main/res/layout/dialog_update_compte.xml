@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText pour le type de compte -->
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type de compte"
+        android:inputType="text" />
+
+    <!-- EditText pour le solde du compte -->
+    <EditText
+        android:id="@+id/editTextSolde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Solde"
+        android:inputType="numberDecimal" />
+
+    <!-- EditText pour la date de création -->
+    <EditText
+        android:id="@+id/editTextDateCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date de création"
+        android:inputType="date" />
+
+
+
+</LinearLayout>

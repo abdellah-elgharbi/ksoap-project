@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Compte Retrofit</string>
+    <string-array name="format_choices">
+        <item>JSON</item>
+        <item>XML</item>
+    </string-array>
+</resources>
